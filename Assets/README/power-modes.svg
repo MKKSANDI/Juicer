@@ -1,0 +1,29 @@
+<svg width="1280" height="520" viewBox="0 0 1280 520" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+<title id="title">Juicer power mode comparison</title>
+<desc id="desc">Three cards compare Strong, Turbo, and Max drain modes by workload type and relative intensity.</desc>
+<rect width="1280" height="520" rx="30" fill="#16181F"/>
+<defs><linearGradient id="hot" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#FFD166"/><stop offset="0.55" stop-color="#F97316"/><stop offset="1" stop-color="#EF4444"/></linearGradient></defs>
+<text x="80" y="82" fill="#F8FAFC" font-family="Inter, Arial" font-size="42" font-weight="800">Power modes</text>
+<text x="80" y="120" fill="#A8B1C2" font-family="Inter, Arial" font-size="20">Each mode is intense, but bounded so the app remains stoppable.</text>
+<g transform="translate(80 170)">
+  <rect width="330" height="250" rx="24" fill="#232732" stroke="#3A4150"/>
+  <text x="34" y="54" fill="#F8FAFC" font-family="Inter, Arial" font-size="30" font-weight="800">Strong</text>
+  <text x="34" y="92" fill="#A8B1C2" font-family="Inter, Arial" font-size="18">CPU + brightness</text>
+  <rect x="34" y="132" width="250" height="18" rx="9" fill="#343B48"/><rect x="34" y="132" width="154" height="18" rx="9" fill="#F59E0B"/>
+  <text x="34" y="192" fill="#DDE3EC" font-family="Inter, Arial" font-size="18">Best for controlled tests.</text>
+</g>
+<g transform="translate(475 170)">
+  <rect width="330" height="250" rx="24" fill="#232732" stroke="#3A4150"/>
+  <text x="34" y="54" fill="#F8FAFC" font-family="Inter, Arial" font-size="30" font-weight="800">Turbo</text>
+  <text x="34" y="92" fill="#A8B1C2" font-family="Inter, Arial" font-size="18">CPU + Core Image</text>
+  <rect x="34" y="132" width="250" height="18" rx="9" fill="#343B48"/><rect x="34" y="132" width="208" height="18" rx="9" fill="url(#hot)"/>
+  <text x="34" y="192" fill="#DDE3EC" font-family="Inter, Arial" font-size="18">Best default for fast drain.</text>
+</g>
+<g transform="translate(870 170)">
+  <rect width="330" height="250" rx="24" fill="#232732" stroke="#3A4150"/>
+  <text x="34" y="54" fill="#F8FAFC" font-family="Inter, Arial" font-size="30" font-weight="800">Max</text>
+  <text x="34" y="92" fill="#A8B1C2" font-family="Inter, Arial" font-size="18">CPU + graphics + temp disk</text>
+  <rect x="34" y="132" width="250" height="18" rx="9" fill="#343B48"/><rect x="34" y="132" width="250" height="18" rx="9" fill="#EF4444"/>
+  <text x="34" y="192" fill="#DDE3EC" font-family="Inter, Arial" font-size="18">Best for aggressive drain.</text>
+</g>
+</svg>
